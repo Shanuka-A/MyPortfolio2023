@@ -34,6 +34,17 @@
   );
 }
 
+.gradient1,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #189ddb 50.63%,
+    #b830ed 100%,
+    #8706ea 117.04%
+  );
+}
+
 .active {
   color: #fff;
   padding: 1rem;
@@ -64,6 +75,9 @@
   }
   .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+  }
+  .text-gradient1 {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#406aff] to-[#189ddb] font-bold font-primary hover:from-[#b830ed] hover:to-[#8706ea];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;

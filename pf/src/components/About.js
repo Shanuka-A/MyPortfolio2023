@@ -31,7 +31,7 @@ const About = () => {
       className='flex-1'>
         <h2 className='h2 text-fuchsia-300'>About me.</h2>
         <h3 className='h3 mb-4'>I'm an undergraduate Student at SLIIT </h3>
-        <p>
+        <p className='mb-6 text-[20px]'>
         Hello ! I'm Shanuka Udara and I'm currently an undergraduate student at the SLIIT Faculty of Computing. 
         I am a hardworking learner who is passionate about providing exceptional service of the highest quality. 
         I always strive to complete projects to the best of my abilities and I am determined to achieve excellence. 
