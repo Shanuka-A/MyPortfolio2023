@@ -26,7 +26,7 @@ const services = [
 
 const Services = () => {
   const handleSeeWorkClick = () => {
-    window.open('https://github.com/it21302176', '_blank'); 
+    window.open('https://github.com/Shanuka-A', '_blank'); 
   };
 
   return (
