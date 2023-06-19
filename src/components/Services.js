@@ -8,25 +8,20 @@ import { Link } from 'react-scroll';
 
 const services = [
   {
-    name: 'HTML',
-    icon: <FaHtml5 />,
-    description: ' is the standard markup language for creating the structure and content of web pages. It provides the foundation for building the skeleton of a website.',
+    name: 'Frontend Developing',
+    description: 'Proficient in HTML, CSS, and JavaScript. Experience with front-end frameworks such as React and Angular. Skilled in creating responsive and user-friendly interfaces.',
   },
-  // {
-  //   name: 'CSS',
-  //   icon: <SiCss3 />,
-  //   description: 'CSS is used to style and visually enhance the HTML elements on a webpage. It enables the customization of colors, fonts, layouts, and other visual aspects.',
-  // },
+  
   {
-    name: 'Tailwind CSS',
-    icon: <SiTailwindcss />,
-    description: ' is a utility-first CSS framework that offers a set of pre-built CSS classes. It allows for rapid UI development by providing a comprehensive styling system.',
+    name: 'Backend Developing',
+    description: 'Strong knowledge of server-side programming languages like Node.js and Python. Familiarity with databases such as MySQL and MongoDB. Experienced in building robust and scalable back-end systems.',
   },
+  
   {
-    name: 'JavaScript',
-    icon: <SiJavascript />,
-    description: ' is a programming language that enables dynamic and interactive behavior on websites. It adds interactivity, performs computations, and manipulates web page content.',
+    name: 'UX / UI Designing',
+    description: 'Proficient in user-centered design principles and practices. Skilled in creating intuitive and visually appealing user interfaces. Experience in conducting user research, creating wireframes. Strong knowledge of interaction design and usability testing.',
   },
+  
 ];
 
 const Services = () => {
@@ -66,15 +61,16 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name, icon,description } = service;
+                const { name,description } = service;
                 return (
-                  <div className="border-b border-white/20 h-[146px] mb-[38px] flex" key={index}>
+                  <div className="border-b border-white/20 h-[180px] mb-[28px] flex" key={index}>
                     <div className="max-w-[476px]">
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
-                        {icon}
+                        
                         {name}
-                        {description}
+                        
                       </h4>
+                      <p>{description}</p>
                     </div>
                   </div>
                 );

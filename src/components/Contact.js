@@ -52,7 +52,7 @@ const Contact = () => {
           <textarea
           name='message'
           placeholder='Enter Your Message'
-          rows={10}
+          rows={3}
           className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' 
           >
 

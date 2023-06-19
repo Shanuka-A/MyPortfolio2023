@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaLink } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import pdf from '../assets/com 2 dig.drawio.pdf';
+import pdf from '../assets/shanu resume.pdf';
 
 const Banner = () => {
   return (
@@ -71,7 +71,7 @@ const Banner = () => {
                 viewport={{ once: false, amount: 0.7 }}
                 className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
               >
-                <a href="https://github.com/it21302176">
+                <a href="https://github.com/Shanuka-A">
                   <FaGithub />
                 </a>
                 <a href="http://linkedin.com/in/shanuka-udara-1b886a216">
