@@ -5,6 +5,7 @@ import { SiMongodb, SiFirebase, SiCss3, SiTailwindcss, SiJavascript } from 'reac
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
+import img1 from '../assets/Screenshot (15).png'
 
 const services = [
   {
@@ -46,6 +47,9 @@ const Services = () => {
             <p className='mb-6 text-[20px]'>
             I'm currently engaged in designing the UI/UX of a website or web application. They are using HTML, CSS, and JavaScript as the core technologies for building the frontend, which is the part of a website that users interact with. Additionally, they mentioned using Tailwind CSS, which is a popular utility-first CSS framework that provides pre-built CSS classes to streamline the styling and layout process. By combining these technologies, the person is able to create visually appealing and interactive frontend designs for their web projects.
             </p>
+            {/* <div>
+              <img src={img1}/>
+            </div> */}
             <button className="btn btn-sm" onClick={handleSeeWorkClick}>
               See My Work
             </button>
