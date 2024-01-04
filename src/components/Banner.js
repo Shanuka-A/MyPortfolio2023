@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaLink } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import pdf from '../assets/shanu resume.pdf';
+import pdf from '../assets/shanuka cv.pdf';
 
 const Banner = () => {
   return (
