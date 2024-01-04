@@ -43,15 +43,15 @@ const Nav = () => {
       <BsBriefcase/>
     </Link>
 
-    <Link to='recent' 
+    
+
+    <Link to='contact' 
     activeClass='active'
     smooth={true}
     spy={true}
     className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-      <BsBriefcase/>
+      <BsChatSquareText/>
     </Link>
-
-    
       </div >
     </div >
   </nav>;
